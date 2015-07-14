@@ -1,0 +1,75 @@
+.debug {
+  border: solid blue;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.h-md {
+  height: 20%;
+}
+
+.p-xsm {
+  padding: 1em;
+}
+
+.p-sm {
+  padding: 2em;
+}
+
+.p-sides-sm {
+  padding: 0em 2em 0em 2em;
+}
+
+.p-bottom-sm {
+  padding-bottom: 2em;
+}
+
+.p-md {
+  padding: 4em;
+}
+
+.bkg-green {
+  background-color: #636F4E;
+}
+
+.txt-white {
+  color: white;
+}
+
+.txt-dark-green {
+  color: #3B422E;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.txt-light {
+  font-weight: 100;
+}
+
+.txt-heavy {
+  font-weight: 400;
+}
+
+.bord-green {
+  border: solid #3B422E;
+}
+
+.txt-big {
+  font-size: 20px;
+}
+
+a {
+  color: #3B422E;
+}
