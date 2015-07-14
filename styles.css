@@ -22,6 +22,10 @@
   padding: 1em;
 }
 
+.p-xxsm {
+  padding: .4em;
+}
+
 .p-sm {
   padding: 2em;
 }
@@ -32,6 +36,14 @@
 
 .p-bottom-sm {
   padding-bottom: 2em;
+}
+
+.p-bottom-xsm {
+  padding-bottom: 1em;
+}
+
+.p-top-sm {
+  padding-top: 2em;
 }
 
 .p-md {
@@ -59,7 +71,7 @@
 }
 
 .txt-heavy {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .bord-green {
@@ -71,5 +83,23 @@
 }
 
 a {
+  color: #817D69;
+}
+
+.txt-white-highlight:hover {
+  color: #CCCCCC;
+}
+
+.txt-green-highlight:hover {
   color: #3B422E;
+  text-decoration: underline;
+}
+
+.txt-green-button-highlight:hover {
+  color: #636F4E;
+  background-color: #3B422E;
+}
+
+.m-top-xsm {
+  margin-top: 1em
 }
