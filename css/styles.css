@@ -1,0 +1,140 @@
+.debug {
+  border: 1px solid  red;
+}
+
+/*box sizing*/
+
+.w-100pct {
+  width: 100%;
+}
+
+.h-500px {
+  height: 500px;
+}
+
+.h-100px {
+  height: 100px;
+}
+
+.h-75px {
+  height: 75px;
+}
+
+.h-60px {
+  height: 60px;
+}
+
+.h-50px {
+  height: 50px;
+}
+
+.h-30px {
+  height: 30px;
+}
+
+.h-25px {
+  height: 25px;
+}
+
+.mah-150px {
+  max-height: 150px;
+}
+
+/*visual formatting*/
+.d {
+  display: block;
+}
+
+/*margin & padding*/
+.m-a {
+  margin: 0 auto;
+}
+
+.mt-20px {
+  margin-top: 20px;
+}
+
+.mt-15px {
+  margin-top: 15px;
+}
+
+.ml-30px {
+  margin-left: 30px;
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+.p-7px {
+  padding: 7px !important;
+}
+
+.pl-10px {
+  padding-left: 15px !important;
+}
+
+.pr-10px {
+  padding-right: 15px !important;
+}
+
+/*text*/
+.ta-c {
+  text-align: center;
+}
+
+.fz-1em {
+  font-size: 1em !important;
+}
+
+.fz-1-2em {
+  font-size: 1.2em !important;
+}
+
+.c-white {
+  color: white;
+}
+
+.ff-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+/*border*/
+.bdrs-3px {
+  border-radius: 3px;
+}
+
+.bdrs-left-3px {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.bdrs-right-3px {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+/*background*/
+.bg-none {
+  background: none;
+}
+
+.bgc-dark-green {
+  background-color: #3B422E;
+}
+
+.bgc-light-green {
+  background-color: #636F4E !important;
+}
+
+.bgc-white {
+  background-color: white;
+}

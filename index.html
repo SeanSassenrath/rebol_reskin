@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 
@@ -16,119 +15,106 @@
   ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>REBOL Language</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
-<!--   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.css"> -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
 
-  <div class="main-header bkg-green">
+  <header>
+    <div class="bgc-dark-green debug">
+      <nav class="top-bar h-60px bgc-light-green" data-topbar role="navigation">
+        <ul class="title-area bgc-light-green">
+          <li class="name">
+            <img src="img/rebol-light-green-white.png" class="h-30px mt-15px ml-10px">
+            <!-- <h1><a href="#" class="p-7px">Rebol</a></h1> -->
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon p-7px"><a href="#" class="c-white"><span>Menu</span></a></li>
+        </ul>
 
-    <nav>
-      <div class="row p-sm">
-        <div class="small-4 columns"><a href=""><h5 class="txt-right txt-white txt-white-highlight roboto txt-light">Products</h5></a></div>
-        <div class="small-4 columns"><a href=""><h5 class="txt-center txt-white txt-white-highlight roboto txt-light">Docs</h5></div>
-        <div class="small-4 columns"><a href=""><h5 class="txt-left txt-white txt-white-highlight roboto txt-light">Community</h5></a></div>
-      </div>
-    </nav>
+        <section class="top-bar-section">
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li class="bgc-light-green"><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px ml-30px" href="#"></a></li>
+            <li><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px" href="#">Getting Started</a></li>
+            <li><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px" href="#">Docs</a></li>
+            <li class="bkg-none"><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px" href="#">Quick Ref</a></li>
+            <li class="bkg-none"><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px" href="#">Community</a></li>
+            <li class="bkg-none"><a class="bgc-light-green fz-1em p-7px pr-3px pl-10px" href="#">Support</a></li>
+          </ul>
 
-    <div class="row">
-      <div class="small-12 columns txt-center">
-        <img class="p-bottom-sm" src="rebol-logo-2.6.png">
-      </div>
-    </div>
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="has-form p-7px bgc-light-green mr-10px">
+              <div class="row collapse">
+                <div class="large-8 small-9 columns">
+                  <input type="text" class="bdrs-left-3px"placeholder="Search Rebol">
+                </div>
+                <div class="large-4 small-3 columns">
+                  <a href="#" class="button expand bgc-dark-green bdrs-right-3px">Search</a>
+                </div>
+              </div>
+            </li>
+          </ul>
 
-    <div class="row">
-      <div class="small-12 columns txt-center">
-        <h3 class="txt-white roboto">Most software systems have become needlessly complex.</h3>
-      </div>
-    </div>
+        </section>
+      </nav>
 
-    <div class="row">
-      <div class="small-12 columns txt-center">
-        <h5 class="txt-white roboto txt-light">We rebel against that complexity, fighting it with the most powerful tool available, language itself.</h5>
+      <div class="row h-75px debug">
+        <div class="small-12 columns">
+          <h1></h1>
+        </div>
       </div>
-    </div>
 
-    <div class="row p-md">
-      <div class="small-12 columns txt-center">
-        <a href="" class="bord-green p-xxsm txt-dark-green txt-big txt-green-button-highlight">Join the Rebolution</a>
+      <div class="row debug">
+        <div class="small-12 columns">
+          <img class="d m-a mah-150px" style="none" id="rebol-header-img" src="img/rebol-green-white.png">
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="row p-sm">
-    <div class="small-12 columns">
-      <p><b>REBOL is not a traditional computer language.</b> It's not for everyone. It's for thinkers and doers -- those who want more power and flexibility in their language, and those who want to solve computing problems in smarter more elegant ways. </br><a href="http://www.rebol.com/docs/expert-intro.html" class="txt-green-highlight">REBOL Overview for Scientists, Engineers, Professors, Programmers</a></p>
-    </div>
-  </div>
+      <div class="row debug">
+        <div class="small-12 columns">
+          <h4 class="ta-c c-white ff-roboto fw-100">Rebol is an elegant open source language for building flexible and powerful applications.</h4>
+        </div>
+      </div>
 
-  <div class="row p-sides-sm">
-    <div class="small-12 medium-6 columns p-bottom-sm">
-      <h4 class="txt-heavy roboto">LEARN</h4>
-      <a href="" class="txt-green-highlight">What is Rebol?</a>
-      <p>Un-bloat your software</p>
-      <a href="" class="txt-green-highlight">Tutorials / Examples</a>
-      <p>Many ways to start.</p>
-    </div>
-    <div class="small-12 medium-6 columns p-bottom-sm">
-      <h4 class="txt-heavy roboto">R3 REFERENCE</h4>
-      <a href="" class="txt-green-highlight">R3 Quick Reference</a>
-      <p>A useful resource for new programmers who want to see the primary functions and types in a single glance.</p>
-      <img src="http://www.rebol.com/graphics/ref-card.jpg">
-    </div>
-  </div>
+      <div class="row debug">
+        <div class="small-12 large-6 columns">
+          <button class="mt-20px w-100pct d m-a bdrs-3px bgc-white fz-1-2em">Get Started</button>
+        </div>
+        <div class="small-12 large-6 columns">
+          <button class="mt-20px w-100pct d m-a bdrs-3px bgc-light-green fz-1-2em c-white">Documentation</button>
+        </div>
+      </div>
 
-  <div class="row p-sm">
-    <div class="small-12 medium-6 columns p-bottom-sm">
-      <h4 class="txt-heavy roboto">NEWS</h4>
-      <p>Rebol.com website has moved to a new server and has a new IP address. Some services may still be offline or malfunctioning. If you use the IP address directly in any of your programs, you'll need to update it.</p>
-      <p><a href="http://www.rebol.com/cgi-bin/blog.r?view=0519" class="txt-green-highlight">Rebol is Open Source - Apache 2.0 License</a></p>
-    </div>
-    <div class="small-12 medium-6 columns">
-      <h4 class="txt-heavy roboto">LINKS</h4>
-      <a href="" class="txt-green-highlight">REBOL 3 Downloads</a>
-      <p>Latest builds</p>
-      <a href="" class="txt-green-highlight">REBOL on StackOverflow</a>
-      <p>An active REBOL forum</p>
-      <a href="" class="txt-green-highlight">Carl's REBOL blog</a>
-      <p>Vive la REBOLution!</p>
-      <a href="" class="txt-green-highlight">REBOL interpreter source</a>
-      <p>Open source archive (git)</p>
-    </div>
-  </div>
+      <div class="row debug">
+        <div class="small-12 large-6 h-50px columns">
+        </div>
+      </div>
 
-  <footer class="bkg-green">
-    <div class="row p-sm">
-      <div class="small-12 medium-3 columns p-bottom-sm">
-        <h5 class="txt-white roboto p-bottom-xsm">About</h5>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">About REBOL</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">What is REBOL</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">Why use REBOL</h6></a>
-      </div>
-      <div class="small-12 medium-3 columns p-bottom-sm">
-        <h5 class="txt-white roboto p-bottom-xsm">Contact Us</h5>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">Commercial Support</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">Dev Support</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">Issue Reporting</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">Contact Form</h6></a>
-      </div>
-      <div class="small-12 medium-3 columns p-bottom-sm">
-        <h5 class="txt-white roboto p-bottom-xsm">License</h5>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">REBOL Core</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">REBOL Command</h6></a>
-        <a href=""><h6 class="txt-left txt-white txt-white-highlight roboto txt-light">REBOL Scripts</h6></a>
-      </div>
-      <div class="small-12 medium-3 columns">
-        <a href="" class="bord-green p-xxsm txt-dark-green txt-big txt-green-button-highlight">Download</a>
-      </div>
     </div>
+  </header>
+
+  <main>
+    <div class="main-container">
+
+    </div>
+  </main>
+
+  <footer>
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+  <script type="text/javascript" src="js/foundation.min.js"></script>
+  <script type="text/javascript" src="js/foundation/foundation.topbar.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(document).foundation();
+    });
+  </script>
 </body>
-</html>
